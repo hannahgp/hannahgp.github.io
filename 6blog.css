@@ -1,0 +1,30 @@
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 25px; 
+    border: 20px solid lightsteelblue;
+    width: 70%; 
+    margin: 20px auto; 
+    padding-left: 10px; 
+    padding-right: 10px; 
+} 
+
+h1 {
+ color: #2F4F4F ; 
+}
+
+h2 {
+    text-transform: uppercase;
+    color: deepskyblue; 
+    letter-spacing: 2px;
+}
+
+div {
+    margin-left: 50px; 
+    margin-right: 50px; 
+}
+
+.quote { 
+border-left: 5px lightsteelblue solid; 
+padding-left: 10px; 
+}
