@@ -1,0 +1,419 @@
+@font-face {
+    font-family: 'sophillia';
+    src: url(fonts/Sophillia.otf);
+    src: url(fonts/Sophillia.otf) format('embedded-opentype'),
+    url(fonts/Sophillia.otf) format('woff2'),
+    url(fonts/Sophillia.otf) format('woff'),
+    url(fonts/Sophillia.otf) format('truetype'),
+    url(fonts/Sophillia.otf) format('svg');
+} 
+
+/* colours: 
+beige #ECD8C1
+white #F5F9F4
+orange #F74300
+black #282322
+yellow #FFC200
+green #055D43
+blue #487D85
+*/ 
+
+
+html {
+    font-size:  80%; 
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color:#F5F9F4; 
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: sophillia; 
+    color: #F74300; 
+    font-size: 7vw;
+}
+
+h4 {
+    font-weight: lighter;
+    font-size: 2.4vw;
+}
+
+p {
+    line-height: 2vw;
+    font-size: 1vw; 
+}
+
+.title-orange {
+    color: #F74300; 
+}
+
+header {
+    width: 100%; 
+    background-color: #ECD8C1; 
+    text-align: center;
+    height: auto; 
+    padding-top: 24%; 
+    padding-bottom: 24%; 
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: -6%; 
+    margin-bottom: 0; 
+    margin-right: 0; 
+    margin-left: 0; 
+ }
+
+ .navbar-toggler {
+     background-color: transparent; 
+     border: none; 
+ }
+
+ .navbar-toggler:focus {
+     outline: 0; 
+ }
+
+ .fa-bars {
+     color: #F74300; 
+     font-size: 3vw; 
+ }
+
+.nav {
+    background: transparent; 
+    padding: 0.8%; 
+}
+
+.nav-item {
+        text-align: right;
+}
+
+.nav .nav-item .nav-link {
+    color: #F74300; 
+    font-size: 1.1rem; 
+    font-weight: 500;
+}
+
+.nav .nav-item .nav-link:hover {
+    font-weight: 700;
+} 
+
+.strike {
+    position: relative;
+    display: block;
+    cursor: pointer;
+  }
+  
+.strike:before, span:after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 0.1rem;
+    top: 50%;
+    margin-top: -0.05rem;
+    background: #fff;
+  }
+  
+.strike:before {
+    left: -0.25rem;
+  }
+.strike:after {
+    right: 0.25rem;
+    background: #282322;
+    transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+  
+.strike:hover:before {
+    background: #282322;
+    width: 100%;
+    transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+  
+.strike:hover:after {
+    background: transparent;
+    width: 100%;
+    transition: 0s;
+  }
+
+
+footer {
+    background: #282322; 
+    color: #F74300; 
+    width: 100%; 
+    height: auto; 
+    padding: 6%; 
+    text-align: center; 
+    font-size: 1vw; 
+}
+
+.section1 {
+    background-color: transparent; 
+    width: 100%; 
+}
+
+.image {
+    margin-top: 12rem;
+    margin-bottom: 12rem; 
+    z-index: -1; 
+    margin-right: 0;
+    border: solid 0.01rem #F5F9F4; 
+}
+
+.orange-left {
+    background-color: #F5F9F4; 
+    color: #F74300; 
+    border: solid 0.2rem #F74300; 
+    margin-top: 30rem; 
+    margin-bottom: 15rem; 
+    margin-left: 10rem;
+    margin-right: -7rem; 
+    z-index: 1;
+    padding-top: 3rem; 
+    padding-bottom: 2rem; 
+}
+
+#zahra-front {
+    margin-top: 38rem; 
+    margin-bottom: 20rem; 
+    padding-top: 2rem; 
+    padding-bottom: 1rem; 
+}
+
+#change-front {
+    margin-top: 20rem; 
+    margin-bottom: 43rem; 
+    margin-right: -10rem; 
+    padding-top: 2rem; 
+}
+
+#family-front {
+    margin-top: 20rem; 
+    margin-bottom: 43rem; 
+    margin-right: -10rem; 
+    padding-top: 2rem; 
+}
+
+#dungarees-front {
+    margin-top: 46rem; 
+    margin-bottom: 20rem; 
+    margin-right: -4rem; 
+}
+
+#shaq-front {
+    margin-top: 47rem; 
+    margin-bottom: 16rem; 
+    margin-right: -4rem; 
+}
+
+#kazin-front {
+    margin-top: 40rem; 
+    margin-bottom: 25rem;
+    margin-right: -4rem;  
+}
+#pulp-front {
+    margin-top: 27rem; 
+    margin-bottom: 39rem; 
+    margin-right: -5rem; 
+}
+
+#denise-front {
+    margin-top: 30rem; 
+    margin-bottom: 40rem; 
+    margin-right: -5rem; 
+}
+
+#frogs-front {
+    margin-top: 37rem; 
+    margin-bottom: 30rem; 
+    margin-right: -5rem; 
+}
+
+#timmy-front {
+    margin-top: 20rem; 
+    margin-bottom: 43rem; 
+    margin-right: -5rem; 
+}
+
+.black-right {
+    background-color: #F5F9F4; 
+    border: solid 0.2rem #282322;
+    z-index: -2; 
+    position: relative;
+    margin-top: 18rem; 
+    margin-bottom: 20rem; 
+    margin-left: -2rem;
+    margin-right: 10rem; 
+}
+
+#zahra-back {
+    margin-top: 18rem; 
+    margin-bottom: 34rem; 
+}
+
+#change-back {
+    margin-top: 25rem; 
+    margin-bottom: 27rem; 
+    margin-left: -1.8rem;
+}
+
+#family-back {
+    margin-top: 25rem; 
+    margin-bottom: 27rem; 
+    margin-left: -1.8rem;
+}
+
+#dungarees-back {
+    margin-top: 25rem; 
+    margin-bottom: 27rem; 
+    margin-left: -1.8rem;
+}
+
+#kazin-back {
+    margin-top: 20rem; 
+    margin-bottom: 33rem; 
+}
+
+#pulp-back {
+    margin-top: 32rem; 
+    margin-bottom: 20rem; 
+}
+
+#denise-back {
+    margin-top: 15rem; 
+    margin-bottom: 50rem; 
+}
+
+#frogs-back {
+    margin-top: 18rem; 
+    margin-bottom: 35rem; 
+}
+
+#timmy-back {
+    margin-top: 27rem; 
+    margin-bottom: 22rem; 
+}
+
+.orange-right {
+    background-color: #F5F9F4; 
+    color: #F74300; 
+    border: solid 0.2rem #F74300;     
+    margin-top: 18rem; 
+    margin-bottom: 30rem; 
+    margin-left: -10rem;
+    margin-right: 10rem; 
+    z-index: 1;
+    padding-top: 2rem; 
+    padding-bottom: 2rem; 
+}
+
+#canterbury-front {
+    margin-top: 31rem; 
+    margin-bottom: 20rem; 
+}
+
+#icarus-front {
+    margin-top: 18rem; 
+    margin-bottom: 42rem; 
+}
+
+#artychokes-front {
+    margin-top: 40rem; 
+    margin-bottom: 25rem; 
+    margin-left: -7rem;
+}
+
+#wellies-front {
+    margin-top: 15rem; 
+    margin-bottom: 40rem; 
+    margin-left: -5rem;
+}
+
+#odyssey-front {
+    margin-top: 24rem; 
+    margin-bottom: 44rem; 
+    margin-left: -4rem;
+}
+
+#danzac-front {
+    margin-top: 31rem; 
+    margin-bottom: 30rem; 
+    margin-left: -4rem;
+}
+
+#movies-front {
+    margin-top: 40rem; 
+    margin-bottom: 15rem; 
+    margin-left: -3rem;
+}
+
+#pandora-front {
+    margin-top: 38rem; 
+    margin-bottom: 28rem; 
+    margin-left: -5rem;
+}
+
+#wywh-front {
+    margin-top: 18rem; 
+    margin-bottom: 40rem; 
+    margin-left: -7rem;
+}
+
+.black-left {
+    background-color: #F5F9F4; 
+    border: solid 0.2rem #282322; 
+    margin-top: 25rem; 
+    margin-bottom: 15rem; 
+    margin-left: 10rem;
+    margin-right: -7rem; 
+}
+
+#look-back {
+    margin-bottom: 18rem; 
+}
+
+#canterbury-back {
+    margin-top: 17rem; 
+    margin-bottom: 30rem; 
+}
+
+#icarus-back {
+    margin-top: 30rem; 
+    margin-bottom: 24rem; 
+}
+
+#artychokes-back {
+    margin-top: 17rem; 
+    margin-bottom: 30rem; 
+}
+
+#wellies-back {
+    margin-top: 20rem; 
+    margin-bottom: 25rem; 
+}
+
+#odyssey-back {
+    margin-top: 34rem; 
+    margin-bottom: 22rem; 
+}
+
+#danzac-back {
+    margin-top: 17rem; 
+    margin-bottom: 30rem; 
+}
+
+#movies-back{
+    margin-top: 16rem; 
+    margin-bottom: 26rem; 
+}
+
+#pandora-back{
+    margin-top: 17rem; 
+    margin-bottom: 34rem; 
+}
